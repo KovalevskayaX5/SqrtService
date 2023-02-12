@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class SqrtServiceTest {
 
     @Test
-    public void borderNumber200_300_True() {
+    public void SquareCalcBorderNumber200_300() {
         SqrtService service = new SqrtService();
         int expected = 3;
         int actual = service.calcSqrt(200, 300);
@@ -16,7 +16,7 @@ public class SqrtServiceTest {
 
 
     @Test
-    public void borderNumber200_400_True() {
+    public void SquareCalcBorderNumber200_400() {
         SqrtService service = new SqrtService();
         int expected = 6;
         int actual = service.calcSqrt(200, 400);
@@ -25,7 +25,7 @@ public class SqrtServiceTest {
 
 
     @Test
-    public void borderNumber100_400_True() {
+    public void SquareCalcBorderNumber100_400() {
         SqrtService service = new SqrtService();
         int expected = 11;
         int actual = service.calcSqrt(100, 400);
@@ -34,7 +34,7 @@ public class SqrtServiceTest {
 
 
     @Test
-    public void borderNumber400_800_True() {
+    public void SquareCalcBorderNumber400_800() {
         SqrtService service = new SqrtService();
         int expected = 9;
         int actual = service.calcSqrt(400, 800);
